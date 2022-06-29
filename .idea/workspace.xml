@@ -5,18 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d6f85ea3-14af-48fe-a563-c7eec77c8f3e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ReviewGUI.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ReviewGUI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sql/ConnectDB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sql/Data.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wine-data-small.sqlite" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ReviewGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ReviewGUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sql/Data.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sql/Data.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wine-data-small.sqlite" beforeDir="false" afterPath="$PROJECT_DIR$/wine-data-small.sqlite" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,15 +34,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/rizky.romadon_ctcorp/Documents/RRMADON/WineReviews/WineReviews/src/main/java"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/rizky.romadon_ctcorp/Documents/RRMADON/WineReviews/WineReviews/src/main/java&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\rizky.romadon_ctcorp\Documents\RRMADON\WineReviews\WineReviews\src\main\java" />
@@ -87,7 +80,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1656113716727</updated>
-      <workItem from="1656113718352" duration="12714000" />
+      <workItem from="1656113718352" duration="13649000" />
+      <workItem from="1656139087529" duration="790000" />
+      <workItem from="1656164372180" duration="57000" />
+      <workItem from="1656336383444" duration="993000" />
+      <workItem from="1656460431121" duration="1383000" />
     </task>
     <servers />
   </component>

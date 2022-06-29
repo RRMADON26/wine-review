@@ -19,7 +19,7 @@ public class Data {
 
 			ResultSet resultSet;
 
-			resultSet = statement.executeQuery("select wine_id, title , description , country , designation , country , variety from Wines");
+			resultSet = statement.executeQuery("select wine_id, title , description , country , designation , country , variety from Wines where active = 1");
 			List<String[]> result = new ArrayList<>();
 
 			while (resultSet.next()) {
@@ -77,6 +77,22 @@ public class Data {
 			statement.close();
 			connection.close();
 		} catch (SQLException throwables) {
+			throwables.printStackTrace();
+		}
+	}
+
+	public static void softDeleteWine(Integer id) {
+		try {
+			Connection connection = ConnectDB.get();
+			Statement statement = connection.createStatement();
+
+			String delete = "UPDATE Wines set active = 0 where wine_id = '"+id+"' ";
+
+			statement.execute(delete);
+
+			statement.close();
+			connection.close();
+		}catch (SQLException throwables) {
 			throwables.printStackTrace();
 		}
 	}
